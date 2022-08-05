@@ -115,7 +115,6 @@ body {
 /*Menu*/
 
 .nav-item,
-.active,
 .nav-link:hover {
   color: #fbff05;
 }
