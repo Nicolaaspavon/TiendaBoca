@@ -112,7 +112,13 @@ body {
     margin: 0px;
   }
 }
+/*Menu*/
 
+.nav-item,
+.active,
+.nav-link:hover {
+  color: #fbff05;
+}
 /* TIENDA Y GALERIA DE IMAGENES DE LA TIENDA*/
 .contenedorTienda {
   width: 60%;
@@ -200,6 +206,15 @@ body {
   text-align: center;
   color: #003566;
 }
+.contenedorForm input {
+  width: 300px;
+  margin: 10px 150px 10px 150px;
+  display: flex;
+}
+.formulario #nombre:focus {
+  border: 3px solid #003566;
+}
+
 .botonForm {
   text-transform: uppercase;
   font-family: "Staatliches";
