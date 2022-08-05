@@ -118,6 +118,7 @@ body {
 .nav-link:hover {
   color: #fbff05;
 }
+
 /* TIENDA Y GALERIA DE IMAGENES DE LA TIENDA*/
 .contenedorTienda {
   width: 60%;
@@ -200,14 +201,20 @@ body {
 
 /* Contacto */
 .contenedorForm {
-  width: 800px;
-  margin: 100px 250px 100px 250px;
   text-align: center;
-  color: #003566;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 0px 0px 0px 400px;
+}
+form {
+  max-width: 100%;
+  margin: 0px 300px 0px 0px;
 }
 .contenedorForm input {
   width: 300px;
-  margin: 10px 150px 10px 150px;
+  margin: 5px 0px 0px 30px;
   display: flex;
 }
 .formulario #nombre:focus {
