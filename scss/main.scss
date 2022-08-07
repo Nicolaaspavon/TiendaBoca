@@ -34,13 +34,11 @@ body {
   color: #fff;
   grid-area: nav;
 }
-
 .contenedor .mainIni {
   background-color: darkgrey;
   color: #fff;
   grid-area: main;
 }
-
 .contenedor .footerIni {
   background-color: darkblue;
   color: #fff;
@@ -71,6 +69,7 @@ body {
   .contenedor {
     background-color: beige;
   }
+
   .contenedor .barraBusqueda {
     margin: 0px 15px 0px 15px;
     width: 50%;
@@ -105,6 +104,7 @@ body {
     width: 100%;
     margin: 0px;
   }
+
   .contenedor .contenedorForm {
     display: flex;
     flex-direction: column;
@@ -114,11 +114,11 @@ body {
   }
 }
 /*Menu*/
+
 .nav-item,
 .nav-link:hover {
   color: #fbff05;
 }
-
 /* TIENDA Y GALERIA DE IMAGENES DE LA TIENDA*/
 .contenedorTienda {
   width: 60%;
@@ -132,17 +132,14 @@ body {
   border: solid 1px #003566;
   display: inline-block;
 }
-
 .contenedorimg img {
   width: 100%;
   height: 100%;
 }
-
 /*Opcion bombonera*/
 .contenedorBombonera {
   width: 100%;
 }
-
 .contenedorArticle {
   width: 42%;
   height: 35%;
@@ -153,7 +150,6 @@ body {
   background-color: #003566;
   color: #fbff05;
 }
-
 .botonTienda {
   text-transform: uppercase;
 }
@@ -162,7 +158,6 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
 .contenedorTextoCards h1 {
   font-family: "Staatliches";
   color: #003566;
@@ -211,13 +206,11 @@ body {
   text-align: center;
   color: #003566;
 }
-
 .contenedorForm input {
   width: 300px;
   margin: 10px 150px 10px 150px;
   display: flex;
 }
-
 .formulario #nombre:focus {
   border: 3px solid #003566;
 }
@@ -240,7 +233,6 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
 body {
   font-family: "inter", sans-serif;
   background-color: darkgray;
@@ -260,7 +252,6 @@ body {
   width: 60px;
   height: 65px;
 }
-
 .img-redes {
   width: 40px;
   height: 40px;
@@ -281,12 +272,10 @@ body {
   justify-content: space-around;
   grid-area: publicidad;
 }
-
 .Publicidad h1 img {
   width: auto;
   background-color: rgba(0, 51, 145, 0.95);
 }
-
 .Publicidad h1 {
   margin: 50px 0px 50px 0px;
 }
@@ -297,9 +286,9 @@ body {
 }
 
 /*User */
+$color-fondo: #003566;
+
 .fondoUser {
-  background-color: #003566;
+  background-color: $color-fondo;
   color: aliceblue;
 }
-
-/*# sourceMappingURL=style.css.map */
